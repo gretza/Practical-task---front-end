@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 55px;
+  border-top-left-radius: 10px;
+  background-color: rgb(96, 65, 190);
+  padding: 20px;
+}
+
+.title {
+  font-size: large;
+  color: rgb(3, 19, 55);
+}
