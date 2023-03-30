@@ -16,6 +16,7 @@ const Input = ({ placeholder, type, label, id, error, changeValue }) => {
         type={type}
         label={label}
         id={id}
+        name={id}
         error={error}
         // onChange={onInputChange}
       />

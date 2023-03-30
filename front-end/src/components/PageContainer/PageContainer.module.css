@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
 
 .innerContainer {
@@ -14,5 +13,5 @@
   border: 3px solid rgba(20, 3, 45, 0.169);
   border-radius: 10px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 97vh;
 }

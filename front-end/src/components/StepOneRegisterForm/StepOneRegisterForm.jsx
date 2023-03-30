@@ -1,25 +1,16 @@
 import Heading from "../Heading/Heading";
-import styles from "./LoginForm.module.css";
+import styles from "./StepOneRegisterForm.module.css";
 import Input from "../Input/Input";
 import Button from "../Button/Button";
 import PageContainer from "../PageContainer/PageContainer";
-import { Link } from "react-router-dom";
-import { routes } from "../constants/routes";
-import { useForm } from "react-hook-form";
 
-const FormContainer = (props) => {
-  const { register, handleSubmit } = useForm();
+const StepOneRegisterForm = () => {
   return (
     <PageContainer>
       <div className={styles.secondContainer}>
         <div className={styles.thirdContainer}>
-          <Heading title="LOGiN" />
-          <form
-            className={styles.form}
-            onSubmit={handleSubmit((formData) => {
-              console.log(formData);
-            })}
-          >
+          <Heading title="REGiSTER" />
+          <form className={styles.form}>
             <Input
               placeholder="Email"
               label="EMAIL:"
@@ -27,20 +18,16 @@ const FormContainer = (props) => {
               id="email"
               // changeValue={getEmail}
               required
-              {...register("email")}
             />
             <Input
               placeholder="Password"
               label="PASSWORD:"
               type="password"
-              id="password"
+              id="Ppassword"
               // changeValue={getEmail}
               required
-              {...register("password")}
             />
-            <Button label="LOGiN" type="submit" />
-            {/* <Link to="/register">REGiSTER</Link> */}
-            <Button label="REGiSTER" />
+            <Button label="NEXT" />
           </form>
         </div>
       </div>
@@ -48,4 +35,4 @@ const FormContainer = (props) => {
   );
 };
 
-export default FormContainer;
+export default StepOneRegisterForm;

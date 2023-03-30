@@ -1,5 +1,13 @@
+import WizardForm from 'react-wizard-form';
+import StepOneRegisterForm from '../../components/StepOneRegisterForm/StepOneRegisterForm';
+import StepTwoRegisterForm from '../../components/StepTwoRegisterForm/StepTwoRegisterForm';
+
 const RegisterPage = () => {
-  return <h1>Register Page</h1>;
+  return (
+
+      <StepTwoRegisterForm/>
+
+  );
 };
 
 export default RegisterPage;

@@ -4,14 +4,11 @@
   gap: 10px;
 }
 
-.input {
-  width: 250px;
-  font-size: larger;
-  border: none;
-  border-bottom: 1px solid grey;
-}
-
 .label {
   color: rgb(12, 7, 29);
   letter-spacing: 10px;
+}
+
+.select {
+  font-size: larger;
 }
