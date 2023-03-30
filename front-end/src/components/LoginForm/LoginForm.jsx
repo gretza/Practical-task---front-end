@@ -6,6 +6,7 @@ import PageContainer from "../PageContainer/PageContainer";
 import { Link } from "react-router-dom";
 import { routes } from "../constants/routes";
 import { useForm } from "react-hook-form";
+import React, { useState } from "react";
 
 const FormContainer = (props) => {
   const { register, handleSubmit } = useForm();
@@ -39,8 +40,7 @@ const FormContainer = (props) => {
               {...register("password")}
             />
             <Button label="LOGiN" type="submit" />
-            {/* <Link to="/register">REGiSTER</Link> */}
-            <Button label="REGiSTER" />
+            <Link to="/register" className={styles.button}>REGiSTER</Link>
           </form>
         </div>
       </div>

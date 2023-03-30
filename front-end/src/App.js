@@ -7,14 +7,20 @@ import { Route, Routes } from "react-router-dom";
 import { routes } from "./components/constants/routes";
 import { useState } from "react";
 
-
 function App() {
-  const [user, setUser] = useState(null)
+  const [user, setUser] = useState(null);
   return (
     <Layout>
-      {user ? <HomePage /> : <LoginPage />}
+      <Routes>
+        {user ? (
+          <Route path={routes.homePage} element={<HomePage />} />
+        ) : (
+          <Route path={routes.loginPage} element={<LoginPage />} />
+        )}
+        <Route path={routes.registerPage} element={<RegisterPage />} />
+      </Routes>
     </Layout>
-    
+
     // <>
     //   <Navbar></Navbar>
     //   <Layout>

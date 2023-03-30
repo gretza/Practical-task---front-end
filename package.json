@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "react-wizard-form": "^2.1.1"
+    "react-step-wizard": "^5.3.11"
   }
 }

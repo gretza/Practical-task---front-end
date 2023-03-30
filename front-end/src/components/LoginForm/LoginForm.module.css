@@ -17,3 +17,14 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.button {
+  border-radius: 10px;
+  background-color: rgb(8, 34, 149);
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}

@@ -4,7 +4,7 @@ import Input from "../Input/Input";
 import Button from "../Button/Button";
 import PageContainer from "../PageContainer/PageContainer";
 
-const StepOneRegisterForm = () => {
+const StepOneRegisterForm = (props) => {
   return (
     <PageContainer>
       <div className={styles.secondContainer}>
@@ -27,7 +27,7 @@ const StepOneRegisterForm = () => {
               // changeValue={getEmail}
               required
             />
-            <Button label="NEXT" />
+            <Button label="NEXT" onClick={props.nextStep}/>
           </form>
         </div>
       </div>
