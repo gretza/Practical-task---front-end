@@ -3,6 +3,12 @@
   border-radius: 50px;
 }
 
+.alert {
+  margin: 10px;
+  text-align: center;
+  color: brown;
+}
+
 .thirdContainer {
   border-radius: 5px;
   display: flex;
@@ -18,6 +24,45 @@
   gap: 20px;
 }
 
-.termsAndConditions {
-  letter-spacing: 5px;
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  color: rgb(12, 7, 29);
+  letter-spacing: 10px;
+}
+
+.input {
+  width: 250px;
+  font-size: larger;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.error {
+  color: brown;
+  letter-spacing: normal;
+}
+
+.select {
+  font-size: larger;
+}
+
+.selection {
+  color: grey;
+}
+
+.checkboxContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }

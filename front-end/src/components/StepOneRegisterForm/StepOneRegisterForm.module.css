@@ -17,3 +17,26 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.label {
+  color: rgb(12, 7, 29);
+  letter-spacing: 10px;
+}
+
+.input {
+  width: 250px;
+  font-size: larger;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.error {
+  color: brown;
+  letter-spacing: normal;
+}

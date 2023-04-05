@@ -1,6 +1,6 @@
 import styles from "./PageContainer.module.css";
 
-const PageContaner = (props) => {
+const PageContainer = (props) => {
   return (
     <>
       <div className={styles.container}>
@@ -10,4 +10,4 @@ const PageContaner = (props) => {
   );
 };
 
-export default PageContaner;
+export default PageContainer;

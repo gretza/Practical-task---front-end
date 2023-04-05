@@ -1,0 +1,32 @@
+.secondContainer {
+  border: 3px solid rgba(22, 8, 101, 0.438);
+  border-radius: 50px;
+}
+
+.alert {
+  margin: 10px;
+  text-align: center;
+  color: brown;
+}
+
+.thirdContainer {
+  border-radius: 5px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  background-color: white;
+  padding: 100px;
+}
+
+.infoContainer {
+   
+}
+
+.infoParagraph {
+    margin: 10px
+}
+
+.userParagraph {
+    margin: 10px;
+    text-align: end;
+}
